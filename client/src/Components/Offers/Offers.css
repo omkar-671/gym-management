@@ -5,7 +5,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #20e030, #e1ffea22);
+    /* background: linear-gradient(180deg, #20e030, #e1ffea22); */
 }
 
 .offers-left{
@@ -40,12 +40,21 @@
     cursor: pointer;
 }
 
+.image{
+  width: 730px;
+  margin-left: 60px;
+}
+
 .offers-right{
-    flex: 1;
+    display: flex;
+    /* flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-top: 50px;
+    height: 9;
+    margin-left: 220px;
+    width: 100px; */
 }
 
 @media(max-width:1280px){

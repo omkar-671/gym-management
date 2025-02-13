@@ -69,8 +69,8 @@ const LoginSignup = () => {
           <input name='email' value={formData.email} onChange={changeHandler} type="email" placeholder='Email Address' />
           <input name='password' value={formData.password} onChange={changeHandler} type="password" placeholder='Password' />
         </div>
-        <button onClick={()=>{state==="Login"?login():signup()}}>Continue</button>
-        {state==="Sign Up"? <p className="loginsignup-login">Already have an aacount? <span onClick={()=>{setState("Login")}}>Login here</span></p>: <p className="loginsignup-login">Create an aacount? <span onClick={()=>{setState("Sign Up")}}>Click here</span></p>}
+        <button className='btn-continue' onClick={()=>{state==="Login"?login():signup()}}>Continue</button>
+        {state==="Sign Up"? <p className="loginsignup-login">Already have an aacount? <span onClick={()=>{setState("Login")}}>Login here</span></p>: <p className="loginsignup-login">Create an aacount? <span className='click-here' onClick={()=>{setState("Sign Up")}}>Click here</span></p>}
        
        
         <div className="loginsignup-agree">
