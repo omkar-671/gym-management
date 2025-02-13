@@ -1,14 +1,18 @@
 import React from 'react'
 import './Navbar.css'
-import navlogo from '../../assets/nav-logo.svg'
+import navlogo from '../../../../client/src/Components/Assets/gym_logo.png'
 import navProfile from '../../assets/nav-profile.svg' 
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <img src={navlogo} alt="" className="nav-logo" />
-        <img src={navProfile} alt="" className="nav-profile" />
+        <img  style={{height:"60px", }} src={navlogo} alt="" className="nav-logo" />
+
+        <div className='panel'>
+          <p>Admin panel</p>
+        </div>
     </div>
+    
   )
 }
 

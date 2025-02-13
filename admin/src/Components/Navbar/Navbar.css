@@ -8,13 +8,21 @@
     background: white;
 }
 
+.panel{
+    margin-right: 640px; 
+    font-weight: 600;
+    font-size: 20px;   
+    }
+
 .nav-logo{
-    width: 200px;
+    width:90px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.nav-profile{
-    width: 75px;
-}
 
 @media(max-width:800px){
     .navbar{
